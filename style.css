@@ -10,17 +10,20 @@ header span{
     color: orange;
 }
 section{
-    display: flex;
+
     margin-bottom: 100px;
+}
+.flexible-container{
+    display: flex;
 }
 .hero{
     
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
 }
-.slider-half{
+.slider-half , .half-width{
     width: 45%;
-    padding-left: 5%;
+    padding-left: 8%;
 }
 .slider-half img{
   width: 80%;
