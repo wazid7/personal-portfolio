@@ -3,14 +3,18 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-header h1{
+.slider-half h1{
     font-size: 50px;;
 }
 header span{
     color: orange;
 }
-.hero{
+section{
     display: flex;
+    margin-bottom: 100px;
+}
+.hero{
+    
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -25,10 +29,19 @@ header span{
 }
 .slider-half a {
     text-decoration: none;
-    background: orange;
+    background-image: linear-gradient(to left, tomato , orange);
     color: white;
     padding: 10px 40px;
     display: inline-block;
     border-radius: 5px;
     font-size: 15px;
+    margin-top: 10px;
+}
+.Dream-Area{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.slider-half p {
+    padding-right: 115px;
 }
