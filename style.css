@@ -7,5 +7,28 @@ header h1{
     font-size: 50px;;
 }
 header span{
-    color: tomato;
+    color: orange;
+}
+.hero{
+    display: flex;
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+.slider-half{
+    width: 45%;
+    padding-left: 5%;
+}
+.slider-half img{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 35px;
+}
+.slider-half a {
+    text-decoration: none;
+    background: orange;
+    color: white;
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 15px;
 }
