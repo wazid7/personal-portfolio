@@ -6,7 +6,11 @@ body{
 .slider-half h1{
     font-size: 50px;;
 }
-header span{
+.heading1 {
+    margin-bottom: -41px;
+    margin-top: 70px;
+}
+.orange{
     color: orange;
 }
 section{
@@ -24,6 +28,10 @@ section{
 .slider-half , .half-width{
     width: 45%;
     padding-left: 8%;
+}
+.Dream-Area .slider-half , .half-width{
+    width: 45%;
+    padding-left: 3%;
 }
 .slider-half img{
   width: 80%;
@@ -47,4 +55,44 @@ section{
 }
 .slider-half p {
     padding-right: 115px;
+}
+.experience-area{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 150px;
+}
+.exp-wrapper .boxes {
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    height: 350px;
+    border-left: 7px solid orange;
+}
+.exp-wrapper .boxes h2 {
+    font-size: 36px;
+}
+
+.exp-wrapper .boxes h3 {
+    font-size: 20px;
+}
+
+.exp-wrapper .boxes p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+section.experience-area h2 {
+    font-size: 40px;
+}
+
+footer p {
+    text-align: center;
+    background: orange;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 14px;
+    color: white;
 }
